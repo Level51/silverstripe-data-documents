@@ -1,4 +1,10 @@
 <?php
 
-// You need this file if you don't have anything in the _config folder. If that folder exists
-// and is not empty then you can delete this file.
+use Level51\DataDocuments\DataDocument;
+use Level51\DataDocuments\DataDocumentExtension;
+use SilverStripe\Core\ClassInfo;
+use SilverStripe\ORM\DataObject;
+
+foreach (ClassInfo::implementorsOf(DataDocument::class) as $dataDocumentClass) {
+    DataObject::add_extension($dataDocumentClass, DataDocumentExtension::class);
+}
