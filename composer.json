@@ -1,5 +1,5 @@
 {
-    "name": "silverstripe-module/skeleton",
+    "name": "level51/silverstripe-data-documents",
     "description": "A skeleton for Silverstripe CMS modules.",
     "type": "silverstripe-vendormodule",
     "keywords": [
