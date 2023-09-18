@@ -1,5 +1,6 @@
 {
   "name": "level51/silverstripe-data-documents",
+  "version": "0.1.0",
   "description": "A CQRS-style approach for managing data redundancy \"the good way\"",
   "type": "silverstripe-vendormodule",
   "keywords": [
