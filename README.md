@@ -1,7 +1,7 @@
 # Data Documents
 
 Low-effort approach for syncing your DataObject with document-based payload stores such
-Firestore, Elasticsearch, Redis, ...
+Firestore, Pocketbase, Elasticsearch, Redis, ...
 
 Inspired by the CQRS pattern, you can think of this module as a headless approach
 without any public API exposed by your Silverstripe app.
@@ -16,7 +16,8 @@ composer require level51/silverstripe-data-documents
 
 ...and the payload store adapter of your choice.
 
-- **Firestore**: `composer require level51/silverstripe-data-documents-firestore`
+- [**Firestore**](https://github.com/Level51/silverstripe-data-documents-firestore): `composer require level51/silverstripe-data-documents-firestore`
+- [**Pocketbase**](https://github.com/Level51/silverstripe-data-documents-pocketbase): `composer require level51/silverstripe-data-documents-pocketbase`
 - (adapter library in the making)
 
 It is faily easy to create your own adapter. Just create a class and make it
